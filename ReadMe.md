@@ -4,7 +4,7 @@
 
 # <a href="https://www.figma.com/file/Txt05DMVTsp9SeUSWhIOTZ/Hydra-Landing-Page-(Community)?type=design&node-id=1-2&mode=design&t=DCdE88fiH8xk59Y8-0">View Figma</a> <img src="./img/favicon/favicon.svg" width="20">
 
-# <a hreg="https://github.com/ha7darov">___`Coder`___</a>
+# <a href="https://github.com/ha7darov">___`Coder`___</a>
 
 ---
 
