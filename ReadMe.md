@@ -19,7 +19,7 @@ ___<h2 align="center">`DEADLINE 19.04.2024 04:00 PM`</h2>___
 
 ## ___`How the code works`___
 
-## npm package download (<img src="">NodeJs is a must)
+## npm package download (<img src="https://cdn-icons-png.flaticon.com/512/5968/5968322.png" width="20">NodeJs is a must)
 ```bash
 npm i
 ```
