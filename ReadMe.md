@@ -1,10 +1,14 @@
+<h1 align="center"><img src="./img/navbar/Vector.png"></h1>
+
 <h1 align="center">Hydra Landing Page</h1>
+
+___<h2 align="center">`DEADLINE 19.04.2024 04:00 PM`</h2>___
 
 ---
 
 # <a href="https://www.figma.com/file/Txt05DMVTsp9SeUSWhIOTZ/Hydra-Landing-Page-(Community)?type=design&node-id=1-2&mode=design&t=DCdE88fiH8xk59Y8-0">View Figma</a> <img src="./img/favicon/favicon.svg" width="20">
 
-# <a href="https://github.com/ha7darov">___`Coder`___</a>
+# <a href="https://github.com/ha7darov">___`Coder Tap`___</a>
 
 ---
 
@@ -15,7 +19,7 @@
 
 ## ___`How the code works`___
 
-## npm package download
+## npm package download (<img src="">NodeJs is a must)
 ```bash
 npm i
 ```
