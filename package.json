@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "tailwindcss": "^3.4.3"
+  },
+  "name": "hydralandingpage",
+  "version": "1.0.2",
+  "description": "Hydra Landing Page",
+  "main": "tailwind.config.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "twind": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "author": "Jasur",
+  "license": "ISC"
+}
