@@ -29,4 +29,6 @@ npm i
 npm run twind
 ```
 
+---
+
 <img src="./img/readme/readmeW.png">
