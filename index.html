@@ -25,9 +25,9 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
 </head>
 
-<body>
+<body class="bg-[#302C42]">
     <!-- ! ============ NAVBAR ============ -->
-    <nav class="py-8 md:py-14 px-4 md:px-40 w-full bg-[#302C42]">
+    <nav class="py-8 md:py-14 px-4 md:px-40 w-full">
         <div class="flex flex-col md:flex-row md:justify-between items-center">
             <!-- Logo div -->
             <div class="flex items-center">
@@ -60,7 +60,7 @@
     
 
     <!-- ! ============ HERO ============ -->
-    <header class="py-14 px-4 md:px-40 w-full h-max bg-[#302C42]">
+    <header class="py-14 px-4 md:px-40 w-full h-max">
         <div class="flex flex-col md:flex-row md:pb-40 md:grid md:grid-cols-2 md:justify-between">
             <!-- Text Section -->
             <div class="text-white md:pr-20">
@@ -112,31 +112,47 @@
     </header>
     
     <!-- ! ============ FIRST SECTION ============ -->
-    <section class="py-14 px-4 md:px-40 w-full h-max bg-[#302C42]">
-        <div class="flex col-span-2 justify-between">
+    <section class="py-14 px-4 md:px-40 w-full h-max">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
             <!-- INTRODUCTION Part -->
             <div>
-                <h2 class="block text-6xl text-white font-semibold">INTRODUCTION</h2>
-                <div>
-                    <h2 class="font-light text-6xl text-white flex">TO HYDRA VR</span>
-                        <div class="ml-8 -mt-5">
-                                <img src="./img/first/Component 1.png" width="228" height="100" alt="">
-                        </div>
+                <h2 class="text-4xl md:text-6xl text-white font-semibold">INTRODUCTION</h2>
+                <div class="flex items-center mt-4 md:mt-0">
+                    <h2 class="text-4xl md:text-6xl font-light text-white">TO HYDRA VR</h2>
+                    <div class="ml-4 md:-mt-5">
+                        <img src="./img/first/Component 1.png" width="228" height="100" alt="">
+                    </div>
                 </div>
-                <div class="mt-32" style="display: block;"><img src="./img/first/Mask group.png" alt=""></div>
+                <div class="mt-10 md:mt-32">
+                    <img src="./img/first/Mask group.png" alt="">
+                </div>
             </div>
-
+    
             <!-- ABOUT part -->
             <div class="text-white">
-                <p>Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Feugiat <br>
+                <p class="mb-8 md:mb-0">Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Feugiat <br>
                     nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo <br>
                     quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare  <br>
                     lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae.</p>
-                <h2 class="font-bold mt-40 text-4xl">ABOUT</h2>
-                <h2 class="text-4xl text-light mt-4">HYDRA VR</h2>
+                <h2 class="font-bold text-3xl md:text-4xl">ABOUT</h2>
+                <h2 class="text-3xl md:text-4xl text-light mt-2">HYDRA VR</h2>
+                <p class="mt-4">Eget mi proin sed libero enim sed faucibus turpis. Nisl rhoncus mattis rhoncus <br>
+                    urna neque viverra justo. Vivamus at augue eget arcu dictum. Ultrices gravida <br>
+                    dictum fusce ut placerat orci. Aenean et tortor at risus viverra adipiscing at in.br <br> 
+                    Mattis aliquam faucibus purus in massa. Est placerat in egestas erat imperdiet <br>
+                    sed. Consequat semper viverra nam libero justo laoreet sit amet. Aliquam <br>
+                    etiam erat velit scelerisque in dictum non consectetur a. Laoreet sit amet <br>
+                    cursus sit amet. Vel eros donec ac odio tempor orci dapibus. Sem nulla pha <br>
+                    retra diam sit amet nisl suscipit adipiscing bibendum. Leo a diam sollicitudi <br>
+                    n tempor.
+                </p>
+                <a href="#">
+                    <button class="rounded-full text-black font-bold w-full md:w-60 h-12 md:h-14 text-xs mt-6 md:mt-10" style="background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);">LET’S GET IN TOUCH</button>
+                </a>
             </div>
         </div>
     </section>
+    
 </body>
 
 </html>
