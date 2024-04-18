@@ -60,55 +60,58 @@
     
 
     <!-- ! ============ HERO ============ -->
-    <header class="py-14 px-40 w-full h-max bg-[#302C42]">
-        <div class="flex pb-40 grid-cols-2 justify-between">
-            <div class="text-white">
-                <h2 class="text-5xl font-bold"><span class="gradient">Dive</span> Into The Depths</h2>
-                <h2 class="text-5xl font-bold">Of <span class="gradient">Virtual Reality</span></h2>
-                <p class="mt-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br> 
+    <header class="py-14 px-4 md:px-40 w-full h-max bg-[#302C42]">
+        <div class="flex flex-col md:flex-row md:pb-40 md:grid md:grid-cols-2 md:justify-between">
+            <!-- Text Section -->
+            <div class="text-white md:pr-20">
+                <h2 class="text-3xl md:text-5xl font-bold mb-6"><span class="gradient">Dive</span> Into The Depths</h2>
+                <h2 class="text-3xl md:text-5xl font-bold mb-8">Of <span class="gradient">Virtual Reality</span></h2>
+                <p class="mt-6 md:mt-10 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br> 
                     sed do eiusmod tempor incididunt ut labore et dolore <br>
                     nisl tincidunt eget. Lectus mauris eros in vitae .
                 </p>
-                <div class="flex mt-12">
-                    <button style="background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);" class="rounded-full w-60 text-black font-semibold h-14 text-xs">BUILD YOUR WORLD</button>
-                    <div class="mt-3 ml-5">
+                <div class="flex mt-10">
+                    <button style="background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);" class="rounded-full w-36 md:w-60 h-12 md:h-14 text-black font-semibold text-xs">BUILD YOUR WORLD</button>
+                    <div class="mt-3 ml-4 md:ml-5">
                         <img width="41px" height="33px" src="./img/hero/shape.png" alt="view next part this hero">
                     </div>
                 </div>
             </div>
-            <!-- Three Card's -->
-            <div>
-                <img class="border-image" src="./img/hero/pexels-michelangelo-buonarroti-8728382 1.png" alt="header image">
+            <!-- Image Section -->
+            <div class="md:pl-20 mt-12 md:mt-0">
+                <img class="border-image w-full md:w-auto" src="./img/hero/pexels-michelangelo-buonarroti-8728382 1.png" alt="header image">
             </div>
         </div>
-        <!-- Three Grid element's -->
-        <div>
-            <div class="text-white grid grid-cols-3 w-full h-[167px] rounded-full"  style="background: radial-gradient(50% 2900.76% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;">
-                <div class="flex p-11">
-                    <img style="width: 100px; height: 80px;" src="./img/hero/Location-Icon.png" alt="">
-                    <div class="block mt-3">
-                        <h4 class="text-xl font-semibold">Pay Us a Visit</h4>
-                        <p>Union St, Seattle, WA 98101, United States</p>
-                    </div>
+        <!-- Three Grid elements -->
+        <div class="text-white mt-12 md:mt-0 grid grid-cols-1 md:grid-cols-3 md:gap-6 w-full h-[167px] rounded-full"  style="background: radial-gradient(50% 2900.76% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;">
+            <!-- First Grid element -->
+            <div class="flex p-4 md:p-11">
+                <img style="width: 80px; height: 70px;" src="./img/hero/Location-Icon.png" alt="">
+                <div class="ml-4">
+                    <h4 class="text-lg md:text-xl font-semibold">Pay Us a Visit</h4>
+                    <p class="mt-1">Union St, Seattle, WA 98101, United States</p>
                 </div>
-                <!-- second div -->
-                <div class="flex p-11">
-                    <img style="width: 80px; height: 70px;" class="mt-3" src="./img/hero/phone-call.png" alt="">
-                    <div class="block mt-3">
-                        <h4 class="text-xl font-semibold">Pay Us a Visit</h4>
-                        <p>Union St, Seattle, WA 98101, United States</p>
-                    </div>
+            </div>
+            <!-- Second Grid element -->
+            <div class="flex p-4 md:p-11">
+                <img style="width: 70px; height: 60px;" src="./img/hero/phone-call.png" alt="">
+                <div class="ml-4">
+                    <h4 class="text-lg md:text-xl font-semibold">Give Us a Call</h4>
+                    <p class="mt-1">+1 (123) 456-7890</p>
                 </div>
-                <div class="flex p-11">
-                    <img class="mt-5" style="width: 80px; height: 50px;" src="./img/hero/shape2.png" alt="">
-                    <div class="block mt-3 ml-4">
-                        <h4 class="text-xl font-semibold">Pay Us a Visit</h4>
-                        <p>Union St, Seattle, WA 98101, United States</p>
-                    </div>
+            </div>
+            <!-- Third Grid element -->
+            <div class="flex p-4 md:p-11">
+                <img style="width: 70px; height: 50px;" src="./img/hero/shape2.png" alt="">
+                <div class="ml-4">
+                    <h4 class="text-lg md:text-xl font-semibold">Send Us a Message</h4>
+                    <p class="mt-1">info@example.com</p>
                 </div>
             </div>
         </div>
     </header>
+    
+    
 </body>
 
 </html>
