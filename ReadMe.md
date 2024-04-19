@@ -2,6 +2,8 @@
 
 <h1 align="center">Hydra Landing Page</h1>
 
+<h2 align="center"><a href="https://hydra-landing-page-mauve.vercel.app/"> VIEW CLONE onlie></a></h2>
+
 ___<h2 align="center">`DEADLINE 19.04.2024 04:00 PM`</h2>___
 
 #### Hi, I didn't put the `.vscode` file in gitignore because I added the workspace to the `settings.json` file.
