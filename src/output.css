@@ -1481,15 +1481,6 @@ video {
   gap: 2.5rem;
 }
 
-.gap-x-10 {
-  -moz-column-gap: 2.5rem;
-       column-gap: 2.5rem;
-}
-
-.gap-y-10 {
-  row-gap: 2.5rem;
-}
-
 .gap-y-7 {
   row-gap: 1.75rem;
 }
@@ -2730,11 +2721,13 @@ video {
   text-align: center;
 }
 
-@media (min-width: 640px) {
-  .sm\:hidden {
+@media not all and (min-width: 1024px) {
+  .max-lg\:hidden {
     display: none;
   }
+}
 
+@media (min-width: 640px) {
   .sm\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -2784,10 +2777,6 @@ video {
 
   .md\:grid {
     display: grid;
-  }
-
-  .md\:hidden {
-    display: none;
   }
 
   .md\:h-14 {
@@ -2877,19 +2866,9 @@ video {
   }
 }
 
-@media (min-width: 1024px) {
-  .lg\:hidden {
-    display: none;
-  }
-}
-
 @media (min-width: 1280px) {
   .xl\:mt-44 {
     margin-top: 11rem;
-  }
-
-  .xl\:hidden {
-    display: none;
   }
 }
 
