@@ -1,5 +1,8 @@
 body{
     font-family: Montserrat,sans-serif;
+    --sb-track-color: #352f5a;
+    --sb-thumb-color: #0053cc;
+    --sb-size: 14px;
 }
 .gradient{
     color: #8176AF;
@@ -15,6 +18,27 @@ body{
     object-position: center;
     width: 390px;
     height: 326px;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 3px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 3px;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+      scrollbar-color: var(--sb-thumb-color)
+                     var(--sb-track-color);
+  }
 }
 
 /* Text Linear Finally */
