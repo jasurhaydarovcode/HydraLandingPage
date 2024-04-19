@@ -739,6 +739,10 @@ video {
   margin-top: -0.75rem;
 }
 
+.-mt-4 {
+  margin-top: -1rem;
+}
+
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -775,6 +779,10 @@ video {
   margin-top: 3rem;
 }
 
+.mt-14 {
+  margin-top: 3.5rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -793,14 +801,6 @@ video {
 
 .mt-7 {
   margin-top: 1.75rem;
-}
-
-.mt-14 {
-  margin-top: 3.5rem;
-}
-
-.-mt-4 {
-  margin-top: -1rem;
 }
 
 .box-border {
@@ -914,6 +914,14 @@ video {
   height: 24rem;
 }
 
+.h-\[159px\] {
+  height: 159px;
+}
+
+.h-\[198px\] {
+  height: 198px;
+}
+
 .h-\[219px\] {
   height: 219px;
 }
@@ -933,6 +941,14 @@ video {
 
 .w-44 {
   width: 11rem;
+}
+
+.w-\[159px\] {
+  width: 159px;
+}
+
+.w-\[198px\] {
+  width: 198px;
 }
 
 .w-\[219px\] {
@@ -2093,6 +2109,10 @@ video {
   padding: 1rem;
 }
 
+.p-5 {
+  padding: 1.25rem;
+}
+
 .p-6 {
   padding: 1.5rem;
 }
@@ -2116,12 +2136,28 @@ video {
   padding-bottom: 2rem;
 }
 
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
 .pt-20 {
   padding-top: 5rem;
 }
 
 .pt-32 {
   padding-top: 8rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
 }
 
 .text-left {
@@ -2190,6 +2226,14 @@ video {
   line-height: 2.5rem;
 }
 
+.text-\[30px\] {
+  font-size: 30px;
+}
+
+.text-\[81px\] {
+  font-size: 81px;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -2198,6 +2242,18 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-\[37px\] {
+  font-size: 37px;
+}
+
+.text-\[20px\] {
+  font-size: 20px;
+}
+
+.text-\[27px\] {
+  font-size: 27px;
 }
 
 .font-bold {
@@ -2744,10 +2800,6 @@ video {
 }
 
 @media (min-width: 640px) {
-  .sm\:w-auto {
-    width: auto;
-  }
-
   .sm\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -2820,20 +2872,12 @@ video {
     width: auto;
   }
 
-  .md\:w-1\/4 {
-    width: 25%;
-  }
-
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .md\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .md\:flex-row {
@@ -2850,15 +2894,6 @@ video {
 
   .md\:gap-6 {
     gap: 1.5rem;
-  }
-
-  .md\:gap-x-7 {
-    -moz-column-gap: 1.75rem;
-         column-gap: 1.75rem;
-  }
-
-  .md\:gap-y-7 {
-    row-gap: 1.75rem;
   }
 
   .md\:p-11 {
