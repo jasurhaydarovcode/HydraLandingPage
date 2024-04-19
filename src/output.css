@@ -715,6 +715,11 @@ video {
   clear: none;
 }
 
+.-my-3 {
+  margin-top: -0.75rem;
+  margin-bottom: -0.75rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -725,44 +730,9 @@ video {
   margin-bottom: 0px;
 }
 
-.my-10 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
-
-.my-8 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
-}
-
-.-my-0 {
-  margin-top: -0px;
-  margin-bottom: -0px;
-}
-
-.-my-2 {
-  margin-top: -0.5rem;
-  margin-bottom: -0.5rem;
-}
-
-.-my-14 {
-  margin-top: -3.5rem;
-  margin-bottom: -3.5rem;
-}
-
-.-my-5 {
-  margin-top: -1.25rem;
-  margin-bottom: -1.25rem;
-}
-
-.-my-3 {
-  margin-top: -0.75rem;
-  margin-bottom: -0.75rem;
 }
 
 .-mt-3 {
@@ -823,10 +793,6 @@ video {
 
 .mt-7 {
   margin-top: 1.75rem;
-}
-
-.mt-5 {
-  margin-top: 1.25rem;
 }
 
 .box-border {
@@ -953,6 +919,10 @@ video {
   width: 9rem;
 }
 
+.w-44 {
+  width: 11rem;
+}
+
 .w-\[219px\] {
   width: 219px;
 }
@@ -975,22 +945,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-20 {
-  width: 5rem;
-}
-
-.w-40 {
-  width: 10rem;
-}
-
-.w-4 {
-  width: 1rem;
-}
-
-.w-44 {
-  width: 11rem;
 }
 
 .flex-shrink {
@@ -1525,6 +1479,19 @@ video {
 
 .gap-10 {
   gap: 2.5rem;
+}
+
+.gap-x-10 {
+  -moz-column-gap: 2.5rem;
+       column-gap: 2.5rem;
+}
+
+.gap-y-10 {
+  row-gap: 2.5rem;
+}
+
+.gap-y-7 {
+  row-gap: 1.75rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -2123,16 +2090,12 @@ video {
   padding: 1rem;
 }
 
-.p-\[16px\] {
-  padding: 16px;
-}
-
-.p-5 {
-  padding: 1.25rem;
-}
-
 .p-6 {
   padding: 1.5rem;
+}
+
+.p-\[16px\] {
+  padding: 16px;
 }
 
 .px-4 {
@@ -2768,6 +2731,10 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:hidden {
+    display: none;
+  }
+
   .sm\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -2817,6 +2784,10 @@ video {
 
   .md\:grid {
     display: grid;
+  }
+
+  .md\:hidden {
+    display: none;
   }
 
   .md\:h-14 {
@@ -2906,9 +2877,19 @@ video {
   }
 }
 
+@media (min-width: 1024px) {
+  .lg\:hidden {
+    display: none;
+  }
+}
+
 @media (min-width: 1280px) {
   .xl\:mt-44 {
     margin-top: 11rem;
+  }
+
+  .xl\:hidden {
+    display: none;
   }
 }
 
