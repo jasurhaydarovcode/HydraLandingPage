@@ -2156,8 +2156,20 @@ video {
   padding-bottom: 2.5rem;
 }
 
-.pt-5 {
-  padding-top: 1.25rem;
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+
+.pb-32 {
+  padding-bottom: 8rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+.pb-40 {
+  padding-bottom: 10rem;
 }
 
 .text-left {
@@ -2226,8 +2238,8 @@ video {
   line-height: 2.5rem;
 }
 
-.text-\[30px\] {
-  font-size: 30px;
+.text-\[27px\] {
+  font-size: 27px;
 }
 
 .text-\[81px\] {
@@ -2242,18 +2254,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-\[37px\] {
-  font-size: 37px;
-}
-
-.text-\[20px\] {
-  font-size: 20px;
-}
-
-.text-\[27px\] {
-  font-size: 27px;
 }
 
 .font-bold {
