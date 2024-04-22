@@ -7,23 +7,5 @@
         "**/.DS_Store": true,
         "**/Thumbs.db": true
     },
-    "hide-files.files": [],
-    "cSpell.words": [
-        "adipiscing",
-        "amet",
-        "consectetur",
-        "dolore",
-        "eget",
-        "eiusmod",
-        "elit",
-        "labore",
-        "Lectus",
-        "mauris",
-        "nisl",
-        "pellentesque",
-        "tempor",
-        "tincidunt",
-        "twind"
-    ],
-    "liveServer.settings.port": 8801
+    "hide-files.files": []
 }

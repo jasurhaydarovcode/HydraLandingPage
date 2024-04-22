@@ -6,8 +6,6 @@
 
 ___<h2 align="center">`DEADLINE 19.04.2024 04:00 PM`</h2>___
 
-#### Hi, I didn't put the `.vscode` file in gitignore because I added the workspace to the `settings.json` file.
-
 ---
 
 # <a href="https://www.figma.com/file/Txt05DMVTsp9SeUSWhIOTZ/Hydra-Landing-Page-(Community)?type=design&node-id=1-2&mode=design&t=DCdE88fiH8xk59Y8-0">View Figma</a> <img src="./img/favicon/favicon.svg" width="20">
