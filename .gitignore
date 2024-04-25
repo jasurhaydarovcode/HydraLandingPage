@@ -1,4 +1,5 @@
+
+
 .vscode/*
-# !!! Hi, I didn't put the .vscode file in gitignore because I added the workspace to the json file.
 
 /node_modules
