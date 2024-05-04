@@ -15,7 +15,7 @@ ___<h2 align="center">`DEADLINE 19.04.2024 04:00 PM`</h2>___
 ---
 
 <h2 align="center">The site is built in HTML and TAILWIND</h2>
-<h1 align="center"><img src="https://raw.githubusercontent.com/ha7darov/ha7darov/main/Technology/html-5-bland.webp" width="70" alt="html5" title="HTML 5">, <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/TailwindCSS-Dark.svg" width="70" alt="tailwind" title="TAILWIND">.</h1>
+<h1 align="center"><img src="https://raw.githubusercontent.com/ha7darov/jasurhaydarovcode/main/Technology/html-5-bland.webp" width="70" alt="html5" title="HTML 5">, <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/TailwindCSS-Dark.svg" width="70" alt="tailwind" title="TAILWIND">.</h1>
 
 ---
 
